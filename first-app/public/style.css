@@ -1,6 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
 .heading-style{
     background-color: brown;
     color: white;
     padding: 10px;
     display: inline-block;
+    margin-bottom: 10px;
+}
+
+.card{
+    background-color: burlywood;
+    box-shadow: 2px 4px 4px gray;
+    width: 395px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.card-title{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.card-desc{
+    text-align: justify;
+    margin-bottom: 5px;
+    padding: 0 5px;
+}
+
+.card-date{
+    font-weight: bold;
+    text-align: center;
 }
