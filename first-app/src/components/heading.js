@@ -2,6 +2,9 @@ var title = "Todo Apps"
 var description = "Grief deigned kiss crime not vexed, sighed me or from childe, he company were than loved the, at did nor.Youth a thy sighed feeble saw his that his, the losel was perchance misery breast day. Flash within seek could minstrels. Full delphi scorching dwell like, land land start to mote noontide lemans."
 let date = new Date();
 
+/* ============================
+          Internal CSS
+=============================== */
 const headingCss = {
     marginBottom: '10px',
     color: 'purple',
