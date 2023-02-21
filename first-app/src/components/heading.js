@@ -10,7 +10,7 @@ const headingCss = {
     color: 'purple',
 }
 
-function Heading(){
+function Heading() {
     return <div className='heading'>
         <h1 style={{ color: '#a90000', fontSize: '20px', textAlign: 'center' }} className='heading-welcome'>Welcome to our first React App.</h1>      {/*using inline css*/}
         <h3 className='heading-style'>{title}</h3>     {/*using external css from public folder */}
