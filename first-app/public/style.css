@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.heading{
+.heading {
     padding: 0 10px;
     margin-bottom: 30px;
 }
 
-.heading-style{
+.heading-style {
     background-color: brown;
     color: white;
     padding: 10px;
@@ -16,7 +16,7 @@
     margin-bottom: 10px;
 }
 
-.card{
+.card {
     background-color: burlywood;
     box-shadow: 2px 4px 4px gray;
     width: 395px;
@@ -26,18 +26,18 @@
     display: inline-block;
 }
 
-.card-title{
+.card-title {
     margin-bottom: 5px;
     text-align: center;
 }
 
-.card-desc{
+.card-desc {
     text-align: justify;
     margin-bottom: 5px;
     padding: 0 5px;
 }
 
-.card-date{
+.card-date {
     font-weight: bold;
     text-align: center;
 }
