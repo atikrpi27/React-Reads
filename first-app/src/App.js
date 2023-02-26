@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, PropsCard, DisctCard } from "./components/card"
 import Heading from "./components/heading"
+import UniqueIDList from "./components/uniqueIDList"
 import Data from "./data.json"
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
         {cards}    {/* we use for loop above this page and Called here the Array  */}
         {/* using map  */}
         {Data.map((item, index) => <PropsCard key={index} card_title={item.card_titles} card_description={item.card_descriptions} />)}
+
+        {/*====================== Unique ID with json data Using json data file ======================*/}
+        <UniqueIDList />
     </div>
 }
 
